@@ -15,7 +15,7 @@ insercaoHtml()
 // ---------------------------------------------------------------------------- Código
 
 const typing = document.querySelector('[data-js="typing"]')
-const messages = ['sou fluente em JS', 'construo aplicações web com JS puro']
+const messages = ['sou fluente em JS', 'construo aplicações web com JS.']
 
 let messageIndex = 0
 let characterIndex = 0
