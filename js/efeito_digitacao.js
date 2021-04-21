@@ -3,7 +3,6 @@ const insercaoHtml = () => {
     const app = document.querySelector('.app')
     const html = `
     <div class="intro">
-        <h1 class="fixed-text">Eu</h1>
         <h1 data-js="typing" class="typing"></h1>
     </div>
     `;
@@ -15,7 +14,7 @@ insercaoHtml()
 // ---------------------------------------------------------------------------- Código
 
 const typing = document.querySelector('[data-js="typing"]')
-const messages = ['sou fluente em JS', 'construo aplicações web com JS.']
+const messages = ['Olá seja bem vindo!', 'construo aplicações web com javascript.']
 
 let messageIndex = 0
 let characterIndex = 0
